@@ -1,0 +1,10 @@
+^C:\USERS\BENJO\PROJECTS\GUARDIAN_AI_DESKTOP\BUILD\CMAKEFILES\0CE613AD3900043E3C0905B006597A92\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/benjo/Projects/guardian_ai_desktop -BC:/Users/benjo/Projects/guardian_ai_desktop/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/benjo/Projects/guardian_ai_desktop/build/MyProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

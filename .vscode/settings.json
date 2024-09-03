@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "cmake.generator": "Visual Studio 17 2022",  // Replace with your version
+}

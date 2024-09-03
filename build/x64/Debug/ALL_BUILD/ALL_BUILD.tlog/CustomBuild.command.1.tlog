@@ -1,0 +1,10 @@
+^C:\USERS\BENJO\PROJECTS\GUARDIAN_AI_DESKTOP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/benjo/Projects/guardian_ai_desktop -BC:/Users/benjo/Projects/guardian_ai_desktop/build --check-stamp-file C:/Users/benjo/Projects/guardian_ai_desktop/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

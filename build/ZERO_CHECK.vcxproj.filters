@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\benjo\Projects\guardian_ai_desktop\build\CMakeFiles\0ce613ad3900043e3c0905b006597a92\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1387C8C8-641D-3635-96FE-50FD0483ABF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
